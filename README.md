@@ -1,14 +1,16 @@
 <div align="center">
 
-# asdf-aws-sso-client [![Build](https://github.com/adamcrews/asdf-aws-sso-client/actions/workflows/build.yml/badge.svg)](https://github.com/adamcrews/asdf-aws-sso-client/actions/workflows/build.yml) [![Lint](https://github.com/adamcrews/asdf-aws-sso-client/actions/workflows/lint.yml/badge.svg)](https://github.com/adamcrews/asdf-aws-sso-client/actions/workflows/lint.yml)
+# asdf-aws-sso-cli [![Build](https://github.com/adamcrews/asdf-aws-sso-cli/actions/workflows/build.yml/badge.svg)](https://github.com/adamcrews/asdf-aws-sso-cli/actions/workflows/build.yml) [![Lint](https://github.com/adamcrews/asdf-aws-sso-cli/actions/workflows/lint.yml/badge.svg)](https://github.com/adamcrews/asdf-aws-sso-cli/actions/workflows/lint.yml)
 
 
-[aws-sso-client](https://github.com/adamcrews/aws-sso-client) plugin for the [asdf version manager](https://asdf-vm.com).
+[aws-sso-cli](https://github.com/synfinatic/aws-sso-cli/) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
 # Contents
 
+- [asdf-aws-sso-cli  ](#asdf-aws-sso-cli--)
+- [Contents](#contents)
 - [Dependencies](#dependencies)
 - [Install](#install)
 - [Contributing](#contributing)
@@ -16,34 +18,31 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
-- `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+- None
 
 # Install
 
 Plugin:
 
 ```shell
-asdf plugin add aws-sso-client
+asdf plugin add aws-sso-cli
 # or
-asdf plugin add aws-sso-client https://github.com/adamcrews/asdf-aws-sso-client.git
+asdf plugin add aws-sso-cli https://github.com/adamcrews/asdf-aws-sso-cli.git
 ```
 
-aws-sso-client:
+aws-sso-cli:
 
 ```shell
 # Show all installable versions
-asdf list-all aws-sso-client
+asdf list-all aws-sso-cli
 
 # Install specific version
-asdf install aws-sso-client latest
+asdf install aws-sso-cli latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global aws-sso-client latest
+asdf global aws-sso-cli latest
 
-# Now aws-sso-client commands are available
+# Now aws-sso-cli commands are available
 aws-sso --help
 ```
 
@@ -54,7 +53,7 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/adamcrews/asdf-aws-sso-client/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/adamcrews/asdf-aws-sso-cli/graphs/contributors)!
 
 # License
 
